@@ -4,8 +4,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-
-
 public class AbstractManufacturerTests {
     private static String MSG1="AbstractManufacturer should have name property";
     private static String MSG2="AbstractManufacturer should have modelName property";
@@ -37,7 +35,4 @@ public class AbstractManufacturerTests {
     public void givenAbstractManufacturerObjectWhenBikeThenShouldSetName() {
         Assertions.assertEquals("BMW",bike.getName(), MSG1);
     }
-
-
-
 }

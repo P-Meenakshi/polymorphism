@@ -20,12 +20,10 @@ public class VehicleTests {
     @Test
     public void givenVehicleWhenCarThenShouldRetuenMaxSpeedOfCar() {
         Assertions.assertEquals(190, car.maxSpeed(car.getType()),MSG1);
-
     }
 
     @Test
     public void givenVehicleWhenBikeThenShouldReturnMaxSpeedOfBike() {
         Assertions.assertEquals(300, bike.maxSpeed(bike.getType()),MSG1);
-
     }
 }

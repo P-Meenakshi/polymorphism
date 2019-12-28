@@ -15,34 +15,32 @@ public class VehicleServiceTests {
 
     @BeforeEach
     public void setUp() {
-      service=new VehicleService();
+        service = new VehicleService();
     }
 
     @Test
     public void givenPropertyValuesThenCreateCarObject() {
-        final Car car=service.createCar("BMW","M3","Sports");
-        Assertions.assertNotNull(car,MSG1);
+        final Car car = service.createCar("BMW", "M3", "Sports");
+        Assertions.assertNotNull(car, MSG1);
     }
 
     @Test
     public void givenPropertyValuesThenCreateBikeObject() {
-        final Bike bike= service.createBike("BMW", "S1000RR","sports");
+        final Bike bike = service.createBike("BMW", "S1000RR", "sports");
         Assertions.assertNotNull(bike, MSG2);
     }
 
     @Test
     void givenTwoVehiclessWhenCarSpeedGreaterThenReturnCarMaxSpeed() {
-        final Car car = new Car("BMW","M3","sports");
-        final Bike bike= new Bike("BMW","S1000RR", "sports");
+        final Car car = new Car("BMW", "M3", "sports");
+        final Bike bike = new Bike("BMW", "S1000RR", "sports");
         Assertions.assertEquals(300, service.compareMaxSpeed(car, bike), MSG3);
     }
 
     @Test
     public void givenTwoVehiclesWhenNotSportsTypeThenReturnMinusOne() {
-        final Car car = new Car("Maruti Suziki","Ciaz","sedan");
-        final Bike bike=new Bike("BMW","S1000RR", "sports");
-       Assertions.assertEquals(-1,service.compareMaxSpeed(car,bike),MSG4);
+        final Car car = new Car("Maruti Suziki", "Ciaz", "sedan");
+        final Bike bike = new Bike("BMW", "S1000RR", "sports");
+        Assertions.assertEquals(-1, service.compareMaxSpeed(car, bike), MSG4);
     }
-
-
 }
