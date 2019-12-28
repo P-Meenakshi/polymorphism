@@ -33,9 +33,9 @@ Declare the following private properties.
 
 **VehicleService Class has the following three methods**
 
-+createCar(String,String,String):Car
-+createBike(String,String,String):Bike
-+compareMaxSpeed(Vehicle,Vehicle):int
+     +createCar(String,String,String):Car
+     +createBike(String,String,String):Bike
+     +compareMaxSpeed(Vehicle,Vehicle):int
 
 - Follow the comments to complete the business logic for all three methods
 
