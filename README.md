@@ -1,4 +1,4 @@
-## Seed code - Boilerplate - Exercise_bt_Arrays_SumCommonElements
+## Seed code - Boilerplate 
 
 ### Instructions
 Refer the problem.md file for problem description. 
@@ -9,9 +9,9 @@ Refer the problem.md file for problem description.
 
 2. **CLONE** the forked repository, containing the boilerplate in your local machine
      
-3. Navigate to Exercise-bt-Arrays-SumCommonELements-Boilerplate folder
+3. Navigate to exercise-bt-oops-inheritance-polymorphism-boilerplate folder
 
-    `cd Exercise-bt-Arrays-SumCommonELements-Boilerplate`
+    `cd exercise-bt-oops-inheritance-polymorphism-boilerplate`
 
 4. Check the status of your repository
      
