@@ -2,9 +2,6 @@ package com.stackroute.oops;
 
 public class Car extends AbstractManufacturer implements Vehicle {
     public Car(String name, String modelName, String carType) {
-        this.type = carType;
-        this.name = name;
-        this.modelName = modelName;
     }
 
     /*
@@ -14,12 +11,7 @@ public class Car extends AbstractManufacturer implements Vehicle {
      */
     @Override
     public int maxSpeed(String carType) {
-        if (carType.equalsIgnoreCase("Sports"))
-            return 250;
-        else if (carType.equalsIgnoreCase("Sedan"))
-            return 190;
-        else return 0;
-
+       return 0;
     }
 
     /*
@@ -27,6 +19,6 @@ public class Car extends AbstractManufacturer implements Vehicle {
      */
     @Override
     public String getManufacturerInformation() {
-        return "Car{Manufacturer name:" + name + ",Model Name:" + modelName + ",Type:" + type + "}";
+        return null;
     }
 }

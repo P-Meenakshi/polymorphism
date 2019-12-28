@@ -2,9 +2,6 @@ package com.stackroute.oops;
 
 public class Bike extends AbstractManufacturer implements  Vehicle{
     public Bike(String name,String modelName,String bikeType){
-        this.type=bikeType;
-        this.name=name;
-        this.modelName=modelName;
     }
     /*
    Method returns maximum speed depending upon their types
@@ -13,11 +10,7 @@ public class Bike extends AbstractManufacturer implements  Vehicle{
     */
     @Override
     public int maxSpeed(String bikeType) {
-        if(bikeType.equalsIgnoreCase("sports"))
-            return 300;
-        else if(bikeType.equalsIgnoreCase("cruiser"))
-            return 170;
-        else return 0;
+       return 0;
     }
 
     /*
@@ -25,6 +18,6 @@ public class Bike extends AbstractManufacturer implements  Vehicle{
      */
     @Override
     public String getManufacturerInformation() {
-        return "Bike{Manufacturer name:" + name + ",Model Name:" + modelName+",Type:" + type +"}";
+        return null;
     }
 }
