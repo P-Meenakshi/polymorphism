@@ -1,7 +1,5 @@
-package com.stackroute.oops.commander.test;
+package com.stackroute.oops;
 
-import com.stackroute.oops.Bike;
-import com.stackroute.oops.Car;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

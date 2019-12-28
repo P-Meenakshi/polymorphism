@@ -1,9 +1,5 @@
-package com.stackroute.oops.commander.test;
+package com.stackroute.oops;
 
-import com.stackroute.oops.AbstractManufacturer;
-import com.stackroute.oops.Bike;
-import com.stackroute.oops.Car;
-import com.stackroute.oops.Vehicle;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -24,10 +20,7 @@ public class BikeTests {
     public void giveBikeClassThenShouldBeOfVehicleType() {
         Assertions.assertTrue(Vehicle.class.isAssignableFrom(Bike.class), MSG1);
     }
-    @Test
-    public void giveCarClassThenShouldBeOfManufacturerType() {
-        Assertions.assertTrue(AbstractManufacturer.class.isAssignableFrom(Car.class), MSG1);
-    }
+
     @Test
     public void givenCarObjectThenPropertiesAreSet(){
         Assertions.assertEquals(bike.getName(), "BMW", MSG2);
