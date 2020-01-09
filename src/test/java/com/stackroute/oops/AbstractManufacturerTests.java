@@ -6,9 +6,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class AbstractManufacturerTests {
-    private static String MESSAGE_ONE = "AbstractManufacturer should have name property";
-    private static String MESSAGE_TWO = "AbstractManufacturer should have modelName property";
-    private static String MESSAGE_THREE = "AbstractManufacturer should have type property";
+    private final static String MESSAGE_ONE = "AbstractManufacturer should have name property";
+    private final static String MESSAGE_TWO = "AbstractManufacturer should have modelName property";
+    private final static String MESSAGE_THREE = "AbstractManufacturer should have type property";
 
     private AbstractManufacturer car;
     private AbstractManufacturer bike;
