@@ -6,36 +6,39 @@
 
 create the following abstract method.
 
-+maxSpeed(string type):int  [Parameter type - String, Returns - int, '+' - public]
+     +maxSpeed(String type) : int  
 
 **Abstract class AbstractManufacturer**
 
 Declare the following private properties.
 
--name:String                             [property datatype:String, property name: name, '-' - private ]
--modelName:String   
--type:String
+      -name : String                                          
+      -modelName : String   
+      -type : String
  
-- Provide getter for all properties and setter for type property.
-- Declare abstract method getManufacturerInformation.
+- Provide getter for all properties 
+
+Declare abstract method 
+       
+      +getManufacturerInformation() : String
 
 **Car Class**
 
-- Make the class as subclass of Vehicle and AbstractManufacturer
+- Make the class as subclass of Vehicle and AbstractManufacturer.
 - Define parameterized constructor passing three parameters to initialize name,modelName and type. 
-- Override the abstract methods and follow the instructions given as comments for the business logic
+- Override the abstract methods and follow the instructions given as comments for the business logic.
 
 **Bike Class**
 
-- Make the class as subclass of Vehicle and AbstractManufacturer
+- Make the class as subclass of Vehicle and AbstractManufacturer.
 - Define parameterized constructor passing three parameters to initialize name,modelName and type. 
-- Override the abstract methods and follow the instructions given as comments for the business logic
+- Override the abstract methods and follow the instructions given as comments for the business logic.
 
 **VehicleService Class has the following three methods**
 
-     +createCar(String,String,String):Car
-     +createBike(String,String,String):Bike
-     +compareMaxSpeed(Vehicle,Vehicle):int
+     +createCar(String,String,String) : Car
+     +createBike(String,String,String) : Bike
+     +compareMaxSpeed(Vehicle,Vehicle) : int
 
 - Follow the comments to complete the business logic for all three methods
 

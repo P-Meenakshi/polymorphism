@@ -15,12 +15,9 @@ public abstract class AbstractManufacturer {
         return null;
     }
 
-    public void setType(String type) {
-    }
-
     public String getName() {
-    return null;
+        return null;
     }
 
-    abstract public String getManufacturerInformation();
+    public abstract String getManufacturerInformation();
 }

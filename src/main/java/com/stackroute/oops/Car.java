@@ -11,11 +11,11 @@ public class Car extends AbstractManufacturer implements Vehicle {
      */
     @Override
     public int maxSpeed(String carType) {
-       return 0;
+        return 0;
     }
 
     /*
-    should return ih the format : Car{Manufacturer name:'name',Model Name:'modelName',Type:'type'}
+    should return in the format : Car{Manufacturer name:'name',Model Name:'modelName',Type:'type'}
      */
     @Override
     public String getManufacturerInformation() {
