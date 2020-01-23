@@ -9,9 +9,9 @@ Refer the problem.md file for problem description.
 
 2. **CLONE** the forked repository, containing the boilerplate in your local machine
      
-3. Navigate to exercise-bt-oops-inheritance-polymorphism-boilerplate folder
+3. Navigate to exercise-bt-oops-inheritance-polymorphism folder
 
-    `cd exercise-bt-oops-inheritance-polymorphism-boilerplate`
+    `cd exercise-bt-oops-inheritance-polymorphism`
 
 4. Check the status of your repository
      
