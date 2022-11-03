@@ -7,17 +7,36 @@ eg. Car is of type sedan, sports...
 Bike is of type cruiser, sports...
  */
 public abstract class AbstractManufacturer {
-    public String getModelName() {
-        return null;
+    protected String modelName;
+    protected String type;
+    protected String name;
+
+    public AbstractManufacturer(String name, String modelName,String type) {
+        this.name =name;
+        this.modelName=modelName;
+        this.type=type;
     }
+
+    public AbstractManufacturer() {
+    }
+
+    public String getModelName() {
+        return modelName;
+    }
+    public void setModelName(String modelName){
+        this.modelName=modelName;}
 
     public String getType() {
-        return null;
+        return type;
     }
+    public void setType(String type){
+        this.type=type;}
 
     public String getName() {
-        return null;
+        return name;
     }
+    public void setName(String name){this.name=name;}
+
 
     public abstract String getManufacturerInformation();
 }
